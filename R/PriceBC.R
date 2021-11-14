@@ -16,7 +16,6 @@
 #' @export
 
 
-
 PriceBC <- function(type, PriceTag, MealBill, AlcoholBill, Tip) {
 
   if(!type %in% c("Restaurant", "Sale")) {
