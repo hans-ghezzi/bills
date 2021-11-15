@@ -22,7 +22,7 @@ by running the following R command:
 devtools::install_github("hans-ghezzi/bills")
 ```
 
-## Example
+## Usage
 
 This is a basic example which shows you how to solve a common problem:
 

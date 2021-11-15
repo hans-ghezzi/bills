@@ -37,3 +37,8 @@ library(bills)
 PriceBC("Sale", PriceTag = 50)
 ```
 
+This package allows users to specify the service offered, between Restaurants and Sale, which involve different tax brackets. Choosing the service "Restaurants" also includes the notorious "Tips", which are culturally expected in North America.
+
+```{r}
+PriceBC(type = "Restaurant", MealBill = 25, Tip = 10, AlcoholBill = 10)
+```
