@@ -28,9 +28,9 @@ bills is not yet on CRAN, but it can be downloaded from this repository by runni
 # install.packages("devtools")
 devtools::install_github("hans-ghezzi/bills")
 ```
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows how to use the `PriceBC()` function:
 
 ```{r example}
 library(bills)
@@ -38,6 +38,7 @@ PriceBC("Sale", PriceTag = 50)
 ```
 
 This package allows users to specify the service offered, between Restaurants and Sale, which involve different tax brackets. Choosing the service "Restaurants" also includes the notorious "Tips", which are culturally expected in North America.
+
 
 ```{r}
 PriceBC(type = "Restaurant", MealBill = 25, Tip = 10, AlcoholBill = 10)

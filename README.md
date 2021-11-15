@@ -24,7 +24,7 @@ devtools::install_github("hans-ghezzi/bills")
 
 ## Usage
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows how to use the `PriceBC()` function:
 
 ``` r
 library(bills)
