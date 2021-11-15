@@ -1,12 +1,12 @@
 Package: bills
-Title: What the Package Does (One Line, Title Case)
+Title: Calculate bills after taxes and tips
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Hans", "Ghezzi", email = "hans.ghezzi@gmail.com", role = c("aut", "cre"))
+Description: 
+    The goal of bills is to easily calculate the additional costs of taxes and tips when shopping or eating in British Columbia, Canada.
+    The function PriceBC, within this package, allows to rapidly predict the final bill at restaurants or shops after accounting for the appropriate taxes and user-selected tips. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

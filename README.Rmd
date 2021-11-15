@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# bills
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of bills is to easily calculate the additional costs of taxes and tips when shopping or eating in British Columbia, Canada. The function PriceBC, within this package, allows to rapidly predict the final bill at restaurants or shops after accounting for the appropriate taxes and user-selected tips. 
+
+## Installation
+
+bills is not yet on CRAN, but it can be downloaded from this repository by running the following R command:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("hans-ghezzi/bills")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(bills)
+PriceBC("Sale", PriceTag = 50)
+```
+
