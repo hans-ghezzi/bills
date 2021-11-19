@@ -19,7 +19,7 @@ by running the following R command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("hans-ghezzi/bills")
+devtools::install_github("hans-ghezzi/bills", ref="0.1.0")
 ```
 
 ## Usage

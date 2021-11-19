@@ -26,7 +26,7 @@ bills is not yet on CRAN, but it can be downloaded from this repository by runni
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("hans-ghezzi/bills")
+devtools::install_github("hans-ghezzi/bills", ref="0.1.0")
 ```
 ## Usage
 
